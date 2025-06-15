@@ -23,6 +23,12 @@ class TgUser(BaseModel):
     username: str | None
 
 
+class UserFormData(BaseModel):
+    name: str
+    info: str
+    photo: str
+
+
 class Button(BaseModel):
     text: str
 

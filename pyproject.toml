@@ -29,6 +29,13 @@ mypy = "*"
 ruff = "*"
 black = "^22"
 
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.0"
+pytest-asyncio = "^1.0.0"
+pytest-mock = "^3.14.1"
+pytest-tornasync = "^0.6.0.post2"
+
 [tool.black]
 line-length = 120
 

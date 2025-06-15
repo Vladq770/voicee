@@ -12,7 +12,7 @@ FROM base as requirements-builder
 
 WORKDIR /build/
 
-RUN pip --no-cache-dir install poetry
+RUN pip --no-cache-dir install poetry poetry-plugin-export
 
 COPY pyproject.toml poetry.lock /build/
 
@@ -34,6 +34,6 @@ COPY tg_bot_template ./tg_bot_template/
 
 # run app
 ENTRYPOINT ["python", "-m"]
-CMD ["tg_bot_template.bot"]
+CMD ["tg_bot_template.main"]
 
 FROM app
