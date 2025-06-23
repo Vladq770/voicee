@@ -7,9 +7,7 @@ from aiogram.utils.exceptions import BotBlocked
 
 from tg_bot_template.bot_data import features
 from tg_bot_template.bot_infra.callbacks import game_cb
-from tg_bot_template.bot_infra.filters import (CreatorFilter,
-                                               NonRegistrationFilter,
-                                               RegistrationFilter)
+from tg_bot_template.bot_infra.filters import CreatorFilter, NonRegistrationFilter, RegistrationFilter
 from tg_bot_template.bot_infra.states import UserForm
 from tg_bot_template.loader import bot, dp
 

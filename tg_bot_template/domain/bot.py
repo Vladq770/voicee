@@ -9,8 +9,7 @@ from aiogram.utils.exceptions import BotBlocked
 from loguru import logger
 
 from tg_bot_template.bot_data import features
-from tg_bot_template.bot_data.bot_models import (InlineButton, TgUser,
-                                                 UserFormData)
+from tg_bot_template.bot_data.bot_models import InlineButton, TgUser, UserFormData
 from tg_bot_template.bot_data.errors import Errors
 from tg_bot_template.bot_data.features import Feature
 from tg_bot_template.bot_infra.callbacks import game_cb

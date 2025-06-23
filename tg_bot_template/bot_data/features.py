@@ -1,7 +1,6 @@
 from dataclasses import dataclass
 
-from tg_bot_template.bot_data.bot_models import (Button, Feature, FeatureMenu,
-                                                 TgUtils)
+from tg_bot_template.bot_data.bot_models import Button, Feature, FeatureMenu, TgUtils
 
 
 @dataclass
